@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a, li {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    background-color: #f2f1ec;
+    font-family: var(--pops);
+}
+
+:root {
+    --pops: "Poppins", sans-serif;
+    --nuns: "Nunito", sans-serif;
+    --monts: "Montserrat", sans-serif;
+}
