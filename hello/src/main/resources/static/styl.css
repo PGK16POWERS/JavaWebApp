@@ -20,3 +20,59 @@ body {
     --nuns: "Nunito", sans-serif;
     --monts: "Montserrat", sans-serif;
 }
+
+header {
+    background-color: #161616;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav-link {
+    font-size: .9em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: rgb(134, 134, 134);
+}
+
+/* HERO SECTION */
+#hero-section {
+    height: 80vh;
+    width: 100%;
+}
+
+#hero-section, .hero-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-div p {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: var(--nuns);
+}
+
+/* HERO SECTION */
